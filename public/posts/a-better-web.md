@@ -1,5 +1,3 @@
-##[A Better Web](/posts/a-better-web)
-
 #### I love the internet.  
 
 I love the the ability to learn nearly anything instantly.  I love the tools it provides and the opportunities.  

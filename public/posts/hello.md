@@ -1,5 +1,3 @@
-##[Hello](/posts/hello)
-
 #### I'm Jordan and I am a Front End Developer.
 
 I'm a North Carolina native.  My wife and I moved to Greensboro in 2012 hoping to build a better future for our family. 
