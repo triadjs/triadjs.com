@@ -10,57 +10,44 @@
     <link rel="stylesheet" href="/standards/assets/css/app.css">
   </head>
   <body class="page-pages">
-    <header class="main-header">
 
-    </header>
-    <div class="container-fluid">
-      <div class="row-fluid">
-        <aside class="col-sm-4 col left-col">
-          <nav class="bar-nav">
-            <h3 class="site-title">Standards &amp; Practices</h3>
-            <ul>
-              <li>
-                <a href="/standards/">Home</a>
-              </li>
+    <div class="col one-third left-col">
+      <header class="main-header">
+        <a class="logo" href="/standards" title="Code for Greensboro"><img class="logo-img" src="/standards/assets/imgs/cfg-logo.png"></a>
+        <h4 class="site-title">Standards &amp; Practices</h4>
+      </header>
+      <nav class="bar-nav">
+        <ul>
+          <li>
           
-            
-              <li>
-                <a href="/standards/pages/setup">Project Setup</a>
-              </li>
-            
+            <a href="/standards/">Home</a>
           
-            
-              <li>
-                <a href="/standards/pages/git">GIT and GitHub</a>
-              </li>
-            
-          
-            
-              <li>
-                <a href="/standards/pages/css">CSS</a>
-              </li>
-            
-          
-            
-              <li class="active">
-                <a href="/standards/pages/js">Javascript</a>
-              </li>
-            
-          
-            </ul>
-          </nav>
-        </aside>
-        <main class="col-sm-8 col-sm-offset-4 col right-col">
-          
-            
+          </li>
+      
+        
+          <li>
+            <a href="/standards/pages/git">GIT and GitHub</a>
+          </li>
+        
+      
+        
+          <li>
+            <a href="/standards/pages/css">CSS</a>
+          </li>
+        
+      
+        
+          <li>
+            <a class="current" href="/standards/pages/js">Javascript</a>
+          </li>
+        
+      
+        </ul>
+      </nav>
 
-          
-
-          
-            <h1>Javascript</h1>
-          
-
-          <h2>General Principles</h2><p>The goal of this style guide to promote clean, efficient, and perhaps most importantly, readable code. To achieve this goal, we seek to have consistently and logically formatted code.</p>
+    </div>
+    <main class="col two-thirds offset-one-third right-col">
+      <h2>General Principles</h2><p>The goal of this style guide to promote clean, efficient, and perhaps most importantly, readable code. To achieve this goal, we seek to have consistently and logically formatted code.</p>
 <h2>Syntax</h2><h3>Indenting</h3><p>Our preferred indent style for JavaScript is one tab set to two space.</p>
 <h3>White space</h3><p>Our preferred use of white space</p>
 <h4>Line breaks</h4><p>Discrete functions should be seperated by two line breaks, but code inside functions should be seperated by only one line break. This is right:</p>
@@ -164,20 +151,16 @@ for( i=0; i&lt;x; i++ ){
 <h3>Selectors</h3><p>Selectors should be as concise as possible
 jQuery selectors should be as concise as possible. Each additional selector reduces the preformance of your JavaScript, and reduces rendering speed.</p>
 
-        </main>
-      </div>
-    </div>
 
-    <footer class="main-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-          </div>
-        </div>
+
+    </main>
+    <footer class="col two-thirds offset-one-third right-col main-footer">
+      <div class="footer-inner">
+        &copy; Code for Greensboro 2015
       </div>
     </footer>
-    <script src="/standards/assets/js/nilla.js"></script>
+    <script src="/standards/assets/js/sprint.min.js"></script>
     <script src="/standards/assets/js/app.js"></script>
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
-  </body>
+ </body>
 </html>

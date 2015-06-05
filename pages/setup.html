@@ -10,57 +10,44 @@
     <link rel="stylesheet" href="/standards/assets/css/app.css">
   </head>
   <body class="page-pages">
-    <header class="main-header">
 
-    </header>
-    <div class="container-fluid">
-      <div class="row-fluid">
-        <aside class="col-sm-4 col left-col">
-          <nav class="bar-nav">
-            <h3 class="site-title">Standards &amp; Practices</h3>
-            <ul>
-              <li>
-                <a href="/standards/">Home</a>
-              </li>
+    <div class="col one-third left-col">
+      <header class="main-header">
+        <a class="logo" href="/standards" title="Code for Greensboro"><img class="logo-img" src="/standards/assets/imgs/cfg-logo.png"></a>
+        <h4 class="site-title">Standards &amp; Practices</h4>
+      </header>
+      <nav class="bar-nav">
+        <ul>
+          <li>
           
-            
-              <li class="active">
-                <a href="/standards/pages/setup">Project Setup</a>
-              </li>
-            
+            <a href="/standards/">Home</a>
           
-            
-              <li>
-                <a href="/standards/pages/git">GIT and GitHub</a>
-              </li>
-            
-          
-            
-              <li>
-                <a href="/standards/pages/css">CSS</a>
-              </li>
-            
-          
-            
-              <li>
-                <a href="/standards/pages/js">Javascript</a>
-              </li>
-            
-          
-            </ul>
-          </nav>
-        </aside>
-        <main class="col-sm-8 col-sm-offset-4 col right-col">
-          
-            
+          </li>
+      
+        
+          <li>
+            <a href="/standards/pages/git">GIT and GitHub</a>
+          </li>
+        
+      
+        
+          <li>
+            <a href="/standards/pages/css">CSS</a>
+          </li>
+        
+      
+        
+          <li>
+            <a href="/standards/pages/js">Javascript</a>
+          </li>
+        
+      
+        </ul>
+      </nav>
 
-          
-
-          
-            <h1>Project Setup</h1>
-          
-
-          <h3>Getting Started</h3><p>Code for Greensboro generally uses 2 environments for development of projects. Harp.js for Static sites and templates and Vagrant for PHP environments.</p>
+    </div>
+    <main class="col two-thirds offset-one-third right-col">
+      <h3>Getting Started</h3><p>Code for Greensboro generally uses 2 environments for development of projects. Harp.js for Static sites and templates and Vagrant for PHP environments.</p>
 <p>We use the <a href="https://github.com/Varying-Vagrant-Vagrants/VVV">Varying Vagrant</a> to build PHP projects as a shareable, stable and self containted environment. The documentation on the <a href="https://github.com/Varying-Vagrant-Vagrants/VVV">Varying Vagrant</a> provides an excellent primer on both <a href="https://www.vagrantup.com/">Vagrant</a> as well as building projects with in the environment.</p>
 <p>We typically use <a href="http://harpjs.com/">Harp.js</a> when working on static sites or crafting initial templates for its speed and easy of use. Projects are self contained and easy to share within the team via GitHub.</p>
 <p>While these tools are prefered Code for Greensboro works to continually evaluate the best tool for internal projects as well as project needs.</p>
@@ -83,20 +70,16 @@
 <h4>Production</h4><p>The &#39;master&#39; branch does not have sub branches. This branch should never be edited and is should be a direct representation/duplication of the code that is in production for any given project. As our deployments are triggered by any push to this branch it is critical that code be properly tested before being merged into master. Merges should only take place as a pull request from staging.</p>
 <h3>Deployments</h3><p>Code that is ready for deployment to Production is pushed to the Master branch of the project. That branch is then deployed to the appropriate production server.</p>
 
-        </main>
-      </div>
-    </div>
 
-    <footer class="main-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-          </div>
-        </div>
+
+    </main>
+    <footer class="col two-thirds offset-one-third right-col main-footer">
+      <div class="footer-inner">
+        &copy; Code for Greensboro 2015
       </div>
     </footer>
-    <script src="/standards/assets/js/nilla.js"></script>
+    <script src="/standards/assets/js/sprint.min.js"></script>
     <script src="/standards/assets/js/app.js"></script>
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
-  </body>
+ </body>
 </html>
