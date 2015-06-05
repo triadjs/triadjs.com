@@ -1,3 +1,6 @@
-(function(){
-  document.getElementsByTagName('pre').addClass('prettyprint');
-})();
+// document.getElementsByTagName('pre').addClass('prettyprint');
+
+
+(function($){
+  $('pre').addClass('prettyprint');
+})(Sprint);

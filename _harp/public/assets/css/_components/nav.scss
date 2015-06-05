@@ -1,0 +1,31 @@
+
+.bar-nav{
+  ul{
+    li{
+      display: block;
+      height: auto;
+      width: 100%;
+      a{
+        display: block;
+        height: auto;
+        width: 100%;
+        padding: 12px 8px;
+        color: $brand-tertiary;
+        border-left: 3px solid transparent;
+        text-decoration: none;
+        &:hover, &:active, &:focus, &.current{
+          border-left: 3px solid $brand-tertiary;
+          background: linear-gradient(to left, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 100%);
+        }
+      }
+    }
+  }
+}
+
+.logo{
+
+}
+.logo-img{
+  width: 100%;
+  max-width: 100%;
+}

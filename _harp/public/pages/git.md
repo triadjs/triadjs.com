@@ -1,3 +1,5 @@
+#GIT and GitHub
+
 Code for Greensboro uses GIT for version control and GitHub for a number of development task. GitHub remote repositories, project development documentation, project issues and development specific discussion. The goal is to keep documentation and discussion in context and project a central location for all information related to development projects. Additionally, deployment of most projects is tied to the Master branch in GitHub in conjunction with DeployHQ.
 
 For a general introduction to GIT Code for Greensboro has a Codeschool account with excellent video training. That login is available via LastPass.

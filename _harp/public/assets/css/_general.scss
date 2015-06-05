@@ -1,0 +1,40 @@
+html, body{
+  height: 100%;
+}
+
+.left-col{
+  height: auto;
+  padding: 20px 0 0;
+  color: $brand-white;
+  background: $brand-secondary;
+  @media screen and (min-width: $md){
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+}
+.right-col{
+  padding: 60px 0 0;
+  background: $brand-white;
+  h1, h2, h3, h4, h5, h6, ul, ol, p{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+pre{
+  width: 100%;
+  max-width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 25px 50px;
+  border-radius: 0;
+  background: $light-gray;
+  font-family: $font-family-monospace;
+  font-size: 16px;
+  &.prettyprint.prettyprinted{
+    padding: 25px 50px;
+    border: none;
+  }
+}
