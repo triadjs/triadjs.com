@@ -13,24 +13,4 @@
     line-height: 1.6;
     max-width: 800px
   }
-  a{
-    position: relative;
-    display: inline-block;
-    color: $brand-black;
-    text-decoration: none;
-    &:after{
-      position: absolute;
-      display: block;
-      bottom:  4px;
-      height: 1px;
-      width: 100%;
-      content: '';
-      border-bottom: 5px solid fade-out($brand-primary, .5);
-    }
-    &:hover, &:active, &:focus{
-      &:after{
-        border-bottom-color: fade-out($brand-primary, .3);
-      }
-    }
-  }
 }
