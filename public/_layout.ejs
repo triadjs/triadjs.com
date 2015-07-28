@@ -53,8 +53,11 @@
 
     </div>
     <main class="col two-thirds offset-one-third right-col">
-
-      <%- yield %>
+      <% if(current.path[0] === "post" && current.source !== 'index') { %>
+        <%- partial(current.path[0] + "/_nest") %>
+      <% } else { %>
+        <%- yield %>
+      <% } %>
 
     </main>
     <footer class="col two-thirds offset-one-third right-col main-footer">
