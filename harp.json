@@ -1,9 +1,9 @@
 {
   "domains": [""],
   "globals": {
-    "org_name": "Code for Greensboro",
-    "site_title": "Code for Greensboro Standards",
-    "twitter": "@codeforgso",
-    "base_url": "/standards"
+    "org_name": "Jordan Cauley",
+    "site_title": "Jordan Cauley",
+    "twitter": "@jdcauley",
+    "base_url": ""
   }
 }

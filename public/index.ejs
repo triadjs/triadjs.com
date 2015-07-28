@@ -1,0 +1,23 @@
+<%
+  var post = public.post._data,
+      i = 0;
+  for(var index in post) {
+    if(i < 3) {
+%>
+
+  <div class="post">
+    <h3><a class="current" href="<%= base_url %>/post/<%= index %>"><%= post[index].title %></a></h3>
+    <%- partial("post/" + index) %>
+  </div>
+
+<% } else { %>
+
+  <div class="others">
+    <%= post[index].title %>
+  </div>
+
+<%
+    }
+  i++;
+  }
+%>

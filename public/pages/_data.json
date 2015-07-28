@@ -1,17 +1,10 @@
 [
   {
-    "title": "GIT and GitHub",
-    "slug": "git",
-    "subnav": []
+    "title": "About Me",
+    "slug": "about"
   },
   {
-    "title": "CSS",
-    "slug": "css",
-    "subnav": []
-  },
-  {
-    "title": "Javascript",
-    "slug": "js",
-    "subnav": []
+    "title": "Contact Me",
+    "slug": "contact"
   }
 ]

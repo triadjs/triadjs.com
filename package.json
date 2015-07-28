@@ -1,0 +1,21 @@
+{
+  "name": "jordancauley.com",
+  "version": "74.0.0",
+  "description": "Another attempt at a personal site",
+  "main": "index.ejs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "harp compile",
+    "deploy": "npm run compile && surge ./www jordancauley.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdcauley/jordancauley.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdcauley/jordancauley.com/issues"
+  },
+  "homepage": "https://github.com/jdcauley/jordancauley.com#readme"
+}

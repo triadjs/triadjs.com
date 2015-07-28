@@ -1,12 +1,21 @@
 html, body{
   height: 100%;
+  font-family: $font-family-sans-serif;
 }
 
 .left-col{
   height: auto;
   padding: 20px 0 0;
   color: $brand-white;
-  background: $brand-secondary;
+  background:rgba(81, 189, 157, 1) no-repeat center center fixed;
+  background-size: cover;
+  background-image: -webkit-gradient( linear, right bottom, left top, color-stop(0, rgba(81, 189, 157, 1)), color-stop(1, rgba(82, 117, 189, 1)));
+  background-image: -o-linear-gradient(left top, rgba(81, 189, 157, 1) 0%, rgba(82, 117, 189, 1) 100%);
+  background-image: -moz-linear-gradient(left top, rgba(81, 189, 157, 1) 0%, rgba(82, 117, 189, 1) 100%);
+  background-image: -webkit-linear-gradient(left top, rgba(81, 189, 157, 1) 0%, rgba(82, 117, 189, 1) 100%);
+  background-image: -ms-linear-gradient(left top, rgba(81, 189, 157, 1) 0%, rgba(82, 117, 189, 1) 100%);
+  background-image: linear-gradient(to left top, rgba(81, 189, 157, 1) 0%, rgba(82, 117, 189, 1) 100%);
+  background-repeat: no-repeat;
   @media screen and (min-width: $md){
     position: fixed;
     top: 0;
@@ -20,6 +29,26 @@ html, body{
   h1, h2, h3, h4, h5, h6, ul, ol, p{
     margin-left: 20px;
     margin-right: 20px;
+  }
+  a{
+    position: relative;
+    display: inline-block;
+    color: $brand-black;
+    text-decoration: none;
+    &:after{
+      position: absolute;
+      display: block;
+      bottom:  4px;
+      height: 1px;
+      width: 100%;
+      content: '';
+      border-bottom: 5px solid fade-out($brand-primary, .5);
+    }
+    &:hover, &:active, &:focus{
+      &:after{
+        border-bottom-color: fade-out($brand-primary, .3);
+      }
+    }
   }
 }
 
@@ -37,4 +66,20 @@ pre{
     padding: 25px 50px;
     border: none;
   }
+}
+
+.form-wrap{
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+.contact-me{
+  h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}
+.network{
+  display: inline-block;
 }

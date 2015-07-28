@@ -1,0 +1,16 @@
+{
+  "name": "ThinkIT Standards",
+  "version": "0.0.0",
+  "authors": [
+    "Jordan Cauley <jordan@cauley.co>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/dependencies",
+    "test",
+    "tests"
+  ]
+}

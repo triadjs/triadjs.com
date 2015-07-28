@@ -1,5 +1,6 @@
 
 .bar-nav{
+  margin-top: 40px;
   ul{
     li{
       display: block;
@@ -10,7 +11,7 @@
         height: auto;
         width: 100%;
         padding: 12px 8px;
-        color: $brand-tertiary;
+        color: $brand-white;
         border-left: 3px solid transparent;
         text-decoration: none;
         &:hover, &:active, &:focus, &.current{
