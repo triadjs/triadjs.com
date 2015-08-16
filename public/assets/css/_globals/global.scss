@@ -1,0 +1,72 @@
+body{
+  font-family: $font-family-sans-serif;
+}
+
+body,
+header,
+main,
+section,
+article,
+aside,
+div,
+ul,
+ol,
+li,
+p,
+a,
+span{
+  height: auto;
+  box-sizing: border-box;
+}
+
+ul, ol{
+  padding-left: 20px;
+}
+
+ul,
+ol,
+p{
+  margin-bottom: 12px;
+}
+
+code{
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+  font-family: $font-family-monospace;
+}
+
+a{
+  color: $brand-primary;
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  line-height: 1.4;
+}
+
+h1{
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+h2{
+  font-size: 36px;
+}
+h3{
+  font-size: 30px;
+}
+h4{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+img{
+  max-width: 100%;
+}

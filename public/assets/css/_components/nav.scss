@@ -1,0 +1,24 @@
+
+.bar-nav{
+  margin-top: 40px;
+  ul{
+    li{
+      display: block;
+      height: auto;
+      width: 100%;
+      a{
+        display: block;
+        height: auto;
+        width: 100%;
+        padding: 12px 8px;
+        color: $brand-white;
+        border-left: 3px solid transparent;
+        text-decoration: none;
+        &:hover, &:active, &:focus, &.current{
+          border-left: 3px solid $brand-tertiary;
+          background: linear-gradient(to left, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 100%);
+        }
+      }
+    }
+  }
+}

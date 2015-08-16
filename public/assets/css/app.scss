@@ -1,0 +1,15 @@
+@import '../dependencies/sanitize-css/sanitize.scss';
+
+@import '_variables';
+
+// Globals
+@import '_globals/global.scss';
+@import '_globals/grid.scss';
+
+@import '_general.scss';
+
+@import '_components/header.scss';
+@import '_components/nav.scss';
+@import '_components/post.scss';
+@import '_components/forms.scss';
+@import '_components/footer.scss';
