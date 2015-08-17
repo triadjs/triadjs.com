@@ -4,4 +4,52 @@ label{
 
 .input{
   display: block;
+  width: 100%;
+  padding: 6px 10px;
+  margin: 12px 0;
+  text-align: right;
+  border: 1px solid $brand-white;
+}
+
+.subscription-form{
+  padding: 40px;
+  text-align: right;
+
+}
+
+.input-group{
+  position: relative;
+  height: 80px;
+  width: 100%;
+  label{
+    position: absolute;
+    right: 10px;
+    top: 36px;
+    transition: top .4s ease;
+    z-index: 1;
+  }
+  .input{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    &:active{
+      + label{
+        top: 0;
+      }
+    }
+    &:focus{
+      + label{
+        top: 0;
+      }
+    }
+  }
+}
+.button{
+  padding: 6px 10px;
+  font-size: 18px;
+  border: 1px solid transparent;
+  &:hover, &:active, &:focus{
+    border: 1px solid $brand-white;
+  }
 }

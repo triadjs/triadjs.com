@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= site_title %></title>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700|PT+Mono' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|PT+Mono' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<%= base_url %>/assets/css/app.css">
   </head>
   <body class="page-<%- current.path[0] %>">
@@ -14,8 +14,9 @@
         <a class="logo" href="/" title="<%= org_name %>">
           <h4 class="site-title"><%= site_title %></h4>
         </a>
-        <!-- <h4 class="site-title"></h4> -->
+        <p>A little group for anyone who uses, or wants to use, JavaScript.</p>
       </header>
+
       <nav class="bar-nav">
         <ul>
           <li>
@@ -28,6 +29,26 @@
         </ul>
       </nav>
 
+      <div class="subscription-form">
+        <div id="mc_embed_signup">
+          <form action="//triadjs.us11.list-manage.com/subscribe/post?u=b3124c0258d3fb58b1b4dabba&amp;id=8055fb1627" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+              <h5>Sign Up for Meeting Times, nothing else</h5>
+              <div class="mc-field-group input-group">
+                <input type="email" value="" name="EMAIL" class="required email input" id="mce-EMAIL">
+                <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+              <div style="position: absolute; left: -5000px;"><input type="text" name="b_b3124c0258d3fb58b1b4dabba_8055fb1627" tabindex="-1" value=""></div>
+              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+          </form>
+        </div>
+      </div>
+
     </div>
     <main class="col two-thirds offset-one-third right-col">
       <% if(current.path[0] === "post" && current.source !== 'index') { %>
@@ -39,10 +60,11 @@
     </main>
     <footer class="col two-thirds offset-one-third right-col main-footer">
       <div class="footer-inner">
-        &copy; Jordan Cauley 2015
+        &copy; <%= site_title %> 2015
       </div>
     </footer>
-    <script src="<%= base_url %>/assets/js/sprint.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="<%= base_url %>/assets/dependencies/ajaxchimp/jquery.ajaxchimp.min.js"></script>
     <script src="<%= base_url %>/assets/js/app.js"></script>
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
  </body>

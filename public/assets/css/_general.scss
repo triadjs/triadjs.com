@@ -26,7 +26,8 @@ html, body{
 .right-col{
   padding: 60px 0 0;
   background: $brand-white;
-  h1, h2, h3, h4, h5, h6, ul, ol, p{
+  ul, ol, p{
+    font-size: 18px;
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -39,6 +40,7 @@ html, body{
     box-shadow: inset 0 -6px 0 0 fade-out($brand-primary, .5);
     transition: all .3s ease;
     &:hover, &:active, &:focus{
+      cursor: pointer;
       box-shadow: inset 0 -40px 0 0 fade-out($brand-primary, .3);
     }
   }

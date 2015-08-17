@@ -6,16 +6,28 @@
   padding: 20px;
   margin: 0;
 }
+.half{
+  width: 100%;
+  @media screen and (min-width: $sm){
+    width: 100%;
+  }
+  @media screen and (min-width: $md){
+    width: 50%;
+  }
+  @media screen and (min-width: $lg){
+    width: 50%;
+  }
+}
 .one-third{
   width: 100%;
   @media screen and (min-width: $sm){
     width: 100%;
   }
   @media screen and (min-width: $md){
-    width: 33.33%;
+    width: 28%;
   }
   @media screen and (min-width: $lg){
-    width: 33.33%;
+    width: 28%;
   }
 }
 .two-thirds{
@@ -24,15 +36,15 @@
     width: 100%;
   }
   @media screen and (min-width: $md){
-    width: 66.66%;
+    width: 72%;
     &.offset-one-third{
-      margin-left: 33.33%;
+      margin-left: 28%;
     }
   }
   @media screen and (min-width: $lg){
-    width: 66.66%;
+    width: 72%;
     &.offset-one-third{
-      margin-left: 33.33%;
+      margin-left: 28%;
     }
   }
 }
